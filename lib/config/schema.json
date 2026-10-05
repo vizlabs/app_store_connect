@@ -8,21 +8,6 @@
     },
     {
       "http_method": "get",
-      "url": "https://api.appstoreconnect.apple.com/v2/inAppPurchases/{id}",
-      "alias": "in_app_purchase"
-    },
-    {
-      "http_method": "post",
-      "url": "https://api.appstoreconnect.apple.com/v2/inAppPurchases",
-      "alias": "create_in_app_purchase"
-    },
-    {
-      "http_method": "patch",
-      "url": "https://api.appstoreconnect.apple.com/v2/inAppPurchases/{id}",
-      "alias": "update_in_app_purchase"
-    },
-    {
-      "http_method": "get",
       "url": "https://api.appstoreconnect.apple.com/v2/inAppPurchases/{id}/pricePoints",
       "alias": "price_points"
     },
@@ -70,16 +55,6 @@
       "http_method": "post",
       "url": "https://api.appstoreconnect.apple.com/v2/inAppPurchaseLocalizations",
       "alias": "create_in_app_purchase_localization"
-    },
-    {
-      "http_method": "get",
-      "url": "https://api.appstoreconnect.apple.com/v1/inAppPurchaseAppStoreReviewScreenshots/{id}",
-      "alias": "review_screenshot_for_in_app_purchase"
-    },
-    {
-      "http_method": "post",
-      "url": "https://api.appstoreconnect.apple.com/v1/inAppPurchaseAppStoreReviewScreenshots",
-      "alias": "create_in_app_purchase_review_screenshot"
     },
     {
       "http_method": "patch",
