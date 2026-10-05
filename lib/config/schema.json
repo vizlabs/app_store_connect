@@ -471,12 +471,6 @@
       "url": "https://api.appstoreconnect.apple.com/v1/inAppPurchaseLocalizations/{id}"
     },
     {
-      "alias": "create_in_app_purchase_localization",
-      "http_body_type": "Requests::V1::InAppPurchaseLocalization::Create",
-      "http_method": "post",
-      "url": "https://api.appstoreconnect.apple.com/v1/inAppPurchaseLocalizations"
-    },
-    {
       "alias": "update_in_app_purchase_localization",
       "http_body_type": "Requests::V1::InAppPurchaseLocalization::Update",
       "http_method": "patch",
